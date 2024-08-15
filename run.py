@@ -1,2 +1,2 @@
 import os
-print(" Checking for update");os.system('git pull');print('free tool server is closed');exit()
+print(" Checking for update");os.system('git pull');os.system('python3 bmc.py')
